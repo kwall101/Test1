@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script>
+
+        let billAmount = 100.58;
+
+        function gratuity() {
+            return billAmount * 0.2;
+        }
+
+        function totalWithGrat(amount) {
+            return gratuity() + amount;
+        }
+
+        console.log(
+            `your total, including gratutity is:\
+	$${totalWithGrat(billAmount).toFixed(2)}`
+        );
+
+        let billAmount = Math.floor(Math.random() * 50 + 1);
+        function gratuity(bill) {
+            return bill * .2;
+        }
+        function totalWithGrat(bill2) {
+            return gratuity(bill2) + bill2;
+
+        }
+
+        console.log(' You total With gratuity;' + totalWithGrat(billAmount));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
